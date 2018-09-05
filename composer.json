@@ -1,0 +1,29 @@
+{
+    "name": "jameslkingsley/nova-stripe-theme",
+    "description": "A Laravel Nova theme closely resembling Stripe.",
+    "keywords": [
+        "laravel",
+        "nova"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Kingsley\\NovaStripeTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kingsley\\NovaStripeTheme\\NovaStripeThemeServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

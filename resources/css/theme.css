@@ -1,0 +1,119 @@
+:root {
+    --transparent: transparent;
+    --black: #22292f;
+    --white: white;
+    --40: #e3e8ee;
+    --white-50: rgba(255, 255, 255, 0.5);
+    --danger: #e74444;
+    --success: #21b978;
+    --warning: #ffeb3b;
+    --info: #03a9f4;
+    --primary: #586ada;
+    --primary-dark: #586ada;
+    --primary-70: #2E2E5E;
+    --primary-50: #8282BA;
+    --primary-30: #B7B7D8;
+    --primary-10: #EDEDF5;
+    --logo: transparent;
+    --sidebar-icon: #22292f7a;
+    --shadow: 0 0 0 1px rgba(49,49,93,.03), 0 2px 5px 0 rgba(49,49,93,.1), 0 1px 2px 0 rgba(0,0,0,.08);
+    --shadow-button: 0 0 0 1px rgba(88,106,218,.1), 0 2px 5px 0 rgba(88,106,218,.08), 0 1px 1.5px 0 rgba(0,0,0,.07), 0 1px 2px 0 rgba(0,0,0,.08), 0 0 0 0 transparent;
+    --shadow-button-hover: 0 0 0 1px rgba(43,45,80,.1), 0 2px 5px 0 rgba(43,45,80,.1), 0 3px 9px 0 rgba(43,45,80,.08), 0 1px 1.5px 0 rgba(0,0,0,.08), 0 1px 2px 0 rgba(0,0,0,.08);
+    --shadow-card: 0 7px 14px 0 rgba(59,65,94,.1), 0 3px 6px 0 rgba(0,0,0,.07);
+}
+
+#nova > div > .content > .bg-white {
+    background: transparent;
+    box-shadow: none;
+}
+
+#nova > div > .content > div > a {
+    display: none;
+}
+
+.px-view, .py-view {
+    padding: 1.5rem;
+}
+
+.bg-grad-sidebar {
+    width: 250px;
+    background: transparent;
+}
+
+.bg-grad-sidebar h3,
+.bg-grad-sidebar h3 span,
+.bg-grad-sidebar a {
+    color: var(--black);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.bg-grad-sidebar ul li {
+    margin-bottom: 0.75rem;
+}
+
+.bg-grad-sidebar a:not(.sidebar-label) {
+    margin-left: 1.75rem;
+}
+
+.sidebar-label {
+    font-size: 16px !important;
+}
+
+.sidebar-icon {
+    width: 1rem;
+    height: 1rem;
+}
+
+.sidebar-icon path {
+    fill: var(--black);
+}
+
+.bg-grad-sidebar a.router-link-exact-active {
+    font-weight: bold;
+}
+
+.card {
+    border-radius: 4px;
+    box-shadow: var(--shadow-card);
+}
+
+.pt-header {
+    padding-top: 5rem;
+}
+
+.form-input {
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+}
+
+.btn-default {
+    border-radius: 4px;
+    text-shadow: none;
+    box-shadow: var(--shadow-button);
+}
+
+.btn-default:hover {
+    box-shadow: var(--shadow-button-hover);
+}
+
+.form-input:focus,
+.form-input:active,
+.btn-default:focus,
+.btn-default:active {
+    text-shadow: none;
+    border-radius: 4px;
+    text-shadow: none;
+    box-shadow: var(--shadow);
+}
+
+[dusk="global-search"], [dusk="global-search"]:focus {
+    border-width: 0;
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    background: white;
+}
+
+.bg-80 {
+    background-color: transparent !important;
+}
