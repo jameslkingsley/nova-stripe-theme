@@ -42,6 +42,8 @@
 
 .bg-grad-sidebar h3,
 .bg-grad-sidebar h3 span,
+.bg-grad-sidebar h4,
+.bg-grad-sidebar h4 span,
 .bg-grad-sidebar a {
     color: var(--black);
     font-weight: 600;
